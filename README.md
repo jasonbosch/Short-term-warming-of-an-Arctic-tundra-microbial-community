@@ -2,10 +2,10 @@
 
 All sequencing data associated with the project can be downloaded from https://www.ncbi.nlm.nih.gov/sra/PRJNA1264795
 
-To demultiplex and prepare the files, please run the following scripts, available from https://github.com/gabrielet/tosadori_disko:
-000_parsing_FASTQs.py
-002_demultiplex_samples.R
-003_run_cutadapt.R
+To demultiplex and prepare the files, please run the following scripts, available from https://github.com/gabrielet/tosadori_disko:  
+000_parsing_FASTQs.py  
+002_demultiplex_samples.R  
+003_run_cutadapt.R  
 
 You will also need the 000_micro_functions_disko2013.R script from https://github.com/gabrielet/tosadori_disko.
 
@@ -15,9 +15,9 @@ Other required data (metadata, temperature recordings, fungal guild identificati
 
 ##Analysis##
 
-Run the following scripts:
-005_dada2_analysis_bacteria.R
-005_dada_analysis_fungi_decipher.R
+Run the following scripts:  
+005_dada2_analysis_bacteria.R  
+005_dada_analysis_fungi_decipher.R  
 006_Disko_Analysis_Final.R
 
 ##Note##
